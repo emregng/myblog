@@ -2,11 +2,11 @@
  * Created by ahmetbusra on 30.09.2016.
  */
 
-$.ajaxSetup({
+/*$.ajaxSetup({
     headers: {
         'X-CSRF-TOKEN':csrfToken
     }
-});
+});*/
 
 $(function(){
     toastr.options = {
@@ -52,7 +52,7 @@ $(function(){
 
 
 
-    /*$('.summernote').summernote({
+    $('.summernote').summernote({
         height: 300,
         lang: 'tr-TR'
     });
@@ -85,4 +85,4 @@ $(function(){
 
 
 
-})*/
+})
