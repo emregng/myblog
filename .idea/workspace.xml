@@ -2,247 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45b4e86a-355d-46fa-8f74-19d89a0bca66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-switch.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-switch.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/bootstrap-switch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/bootstrap-switch.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/1532005915.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/thumb_1532005915.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/.agignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/MAINTAIN.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/airmode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/bs3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/bs4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/codemirror.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/external-api.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/hint-emoji.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/hint-symbols_mathematical-symbols_Greek-letters.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/hint-userdefine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/ie8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/jquery-custom-event.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/jquery19lt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/lang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/link-blank.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/lite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/nativestyle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/ondialog-multitab.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/ondialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/plugin-hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/rtl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/symbols_mathematical-symbols_Greek-letters.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/textarea.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/toolbar-container.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/examples/with-google-font.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/grunts/grunt-build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-ar-AR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-bg-BG.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-ca-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-cs-CZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-da-DK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-de-DE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-el-GR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-es-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-es-EU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-fa-IR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-fi-FI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-fr-FR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-gl-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-he-IL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-hr-HR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-hu-HU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-id-ID.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-it-IT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-ja-JP.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-ko-KR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-lt-LT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-lt-LV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-mn-MN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-nb-NO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-nl-NL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-pl-PL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-pt-PT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-ro-RO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-ru-RU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-sk-SK.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-sl-SI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-sr-RS-Latin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-sr-RS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-sv-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-ta-IN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-th-TH.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-tr-TR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-uk-UA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-uz-UZ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-vi-VN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/lang/summernote-zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/plugin/databasic/summernote-ext-databasic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/plugin/databasic/summernote-ext-databasic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/plugin/hello/summernote-ext-hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/plugin/specialchars/summernote-ext-specialchars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/align-center.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/align-indent.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/align-justify.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/align-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/align-outdent.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/align-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/align.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/arrow-circle-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/arrow-circle-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/arrow-circle-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/arrow-circle-up.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/arrows-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/arrows-h.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/arrows-v.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/caret.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/chain-broken.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/circle.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/code.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/col-after.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/col-before.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/col-remove.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/eraser.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/font.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/frame.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/italic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/link.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/magic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/menu-check.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/minus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/orderedlist.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/pencil.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/picture.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/question.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/redo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/row-above.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/row-below.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/row-remove.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/special-character.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/square.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/strikethrough.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/subscript.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/summernote.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/superscript.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/table.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/templates/summernote.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/templates/summernote.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/text-height.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/trash.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/underline.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/undo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/unorderedlist.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/icons/video.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/Context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/core/async.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/core/dom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/core/env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/core/func.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/core/key.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/core/lists.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/core/range.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/editing/Bullet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/editing/History.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/editing/Style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/editing/Table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/editing/Typing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/AirPopover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/AutoLink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/AutoSync.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/Buttons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/Clipboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/Codeview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/Dropzone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/Editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/Fullscreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/Handle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/HelpDialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/HintPopover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/ImageDialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/ImagePopover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/LinkDialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/LinkPopover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/Placeholder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/Statusbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/TablePopover.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/Toolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/module/VideoDialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/renderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/base/summernote-en-US.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/bs3/settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/bs3/ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/bs4/settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/bs4/ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/lite/settings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/lite/ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/lite/ui/DropdownUI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/lite/ui/ModalUI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/lite/ui/PopoverUI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/lite/ui/TooltipUI.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/js/summernote.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/elements.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/elements.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/all.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/btn-group.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/buttons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/common.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/dropdown.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/form.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/mixins/buttons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/modal.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/popover.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/toolbar.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/tooltip.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/lite-ui/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/summernote-bs4.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/summernote-bs4.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/summernote-lite.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/summernote.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/src/less/summernote.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/chaidom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/e2e/html/initialization.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/e2e/initialization.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/e2e/static-server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/libs/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/libs/sauce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/nightwatch.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/base/Context.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/base/core/dom.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/base/core/func.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/base/core/key.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/base/core/lists.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/base/core/range.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/base/editing/Table.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/base/editing/style.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/base/module/Codeview.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/base/module/Editor.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/base/module/Fullscreen.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/bs/module/Buttons.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/test/unit/bs/module/VideoDialog.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vendor/summernote-master/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/form_components/text.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/form_components/text.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -256,95 +17,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="makale_create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/makale_create.blade.php">
+      <file leaf-file-name="AdminMi.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/AdminMi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="20" selection-end-line="30" />
+            <state relative-caret-position="408">
+              <caret line="25" column="34" selection-start-line="18" selection-start-column="8" selection-end-line="25" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YazarMi.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/YazarMi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="15" />
+              <folding>
+                <element signature="e#39#51#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+              <folding>
+                <element signature="e#7#392#0#PHP" expanded="true" />
+                <element signature="e#393#406#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Yazar/MakeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+              <folding>
+                <element signature="e#46#82#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makale_index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/yazar/makale_index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makale_create.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/yazar/makale_create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="makale_edit.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/makale_edit.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/yazar/makale_edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kategori_edit.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/kategori_edit.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="126" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="126" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Makalem.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Makalem.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding>
-                <element signature="e#23#65#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakeController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/MakeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="150" column="30" lean-forward="true" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
-              <folding>
-                <element signature="e#46#82#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KategoriController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/KategoriController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="138" column="37" lean-forward="true" selection-start-line="131" selection-start-column="7" selection-end-line="138" selection-end-column="37" />
-              <folding>
-                <element signature="e#46#82#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="select.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/form_components/select.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="96" selection-start-line="10" selection-start-column="3" selection-end-line="21" selection-end-column="96" />
-              <folding>
-                <element signature="e#6757#6763#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="makale_index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/makale_index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -379,12 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/form_components/chechkbox.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/form_components/password.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/user_edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/lang/tr/validation.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/AyarController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/UserController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_19_111108_create_kategoris_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_19_111425_create_resims_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/KategoriController.php" />
@@ -418,7 +162,6 @@
         <option value="$PROJECT_DIR$/public/vendor/summernote/summornote.min.js.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/form_components/text.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/user_index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/public/css/custom.css" />
         <option value="$PROJECT_DIR$/resources/views/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/public/js/custom.js" />
@@ -430,6 +173,13 @@
         <option value="$PROJECT_DIR$/app/Makalem.php" />
         <option value="$PROJECT_DIR$/public/js/bootstrap-switch.min.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/MakeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/yazar/makale_create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/yazar/makale_edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/YazarMi.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Yazar/MakeController.php" />
+        <option value="$PROJECT_DIR$/resources/views/yazar/makale_index.blade.php" />
       </list>
     </option>
   </component>
@@ -557,14 +307,14 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="Yazar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -603,14 +353,14 @@
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="form_components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="form_components" type="462c0819:PsiDirectoryNode" />
+              <item name="yazar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -626,6 +376,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\myblog\resources\views\yazar" />
+      <recent name="C:\xampp\htdocs\myblog\app\Http\Controllers\Yazar" />
       <recent name="C:\xampp\htdocs\myblog\resources\lang" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -660,16 +412,15 @@
       <workItem from="1531853983021" duration="5205000" />
       <workItem from="1531893482859" duration="3618000" />
       <workItem from="1531981075867" duration="29194000" />
-      <workItem from="1532067341170" duration="15720000" />
+      <workItem from="1532067341170" duration="17707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69935000" />
+    <option name="totallyTimeSpent" value="71922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1448" y="-88" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -700,59 +451,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resim.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/user_edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="121" column="31" selection-start-line="121" selection-start-column="31" selection-end-line="121" selection-end-column="31" />
-          <folding>
-            <element signature="e#46#82#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/sluggable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="114" column="64" selection-start-line="114" selection-start-column="64" selection-end-line="114" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/blog-detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Makale.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_162750_create_makales_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_164423_create_makalems_table.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -927,17 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-            <element signature="e#393#406#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -997,13 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="9" column="16267" selection-start-line="9" selection-start-column="16267" selection-end-line="9" selection-end-column="16267" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/makale_create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="20" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -1067,11 +747,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/MakeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="150" column="30" lean-forward="true" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
+        <state relative-caret-position="392">
+          <caret line="151" column="34" lean-forward="true" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
           <folding>
             <element signature="e#46#82#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/makale_create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="20" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/AdminMi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="34" selection-start-line="18" selection-start-column="8" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="49" column="56" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+            <element signature="e#393#406#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/YazarMi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#39#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yazar/makale_create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yazar/makale_edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Yazar/MakeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding>
+            <element signature="e#46#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/yazar/makale_index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
         </state>
       </provider>
     </entry>

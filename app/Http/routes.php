@@ -31,3 +31,10 @@ Route::group(["middleware" => ["admin_mi","auth"]],function(){
     });
 
 });
+Route::group(["middleware" => ["yazar_mi","auth"]],function(){
+
+    Route::group(["namespace" => "Yazar"],function (){
+        Route::resource("makalem","MakeController");
+    });
+
+});
