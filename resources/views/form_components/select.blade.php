@@ -1,6 +1,7 @@
 <div class="form-group {{ $errors->has($name) ? ' has-error' : '' }}">
-    {{ Form::label($name, $label_name, ['class' => 'control-label']) }}
-    {{ Form::text($name, $value, array_merge(['class' => 'form-control'], $attributes)) }}
+    {{ Form::label($name, $label_name, ['class' => 'control-label ']) }}
+
+    {!! Form::select($name,$liste,$value, ['placeholder' => $placeholder,"data-width" =>"100%"]) !!}
     @if ($errors->has($name))
         <span class="help-block">
             <strong>{{ $errors->first($name) }}</strong>

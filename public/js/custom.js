@@ -2,11 +2,11 @@
  * Created by ahmetbusra on 30.09.2016.
  */
 
-/*$.ajaxSetup({
+$.ajaxSetup({
     headers: {
         'X-CSRF-TOKEN':csrfToken
     }
-});*/
+});
 
 $(function(){
     toastr.options = {
@@ -14,7 +14,7 @@ $(function(){
         "debug": false,
         "newestOnTop": false,
         "progressBar": false,
-        "positionClass": "toast-top-right",
+        "positionClass": "toast-bottom-right",
         "preventDuplicates": false,
         "onclick": null,
         "showDuration": "300",
