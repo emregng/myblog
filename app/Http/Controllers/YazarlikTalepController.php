@@ -30,9 +30,9 @@ class YazarlikTalepController extends Controller
         $this->validate($request,[
             "aciklama" => "required"
         ]);
-        $imput = $request->all();
-        $imput["user_id"] = Auth::user()->id;
-        Talep::create($imput);
+        $input = $request->all();
+        $input["user_id"] = Auth::user()->id;
+        Talep::create($input);
         Session::flash("durum",2);
         return redirect("/anasayfa");
     }

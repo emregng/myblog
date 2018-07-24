@@ -41,7 +41,7 @@
                             <td>
                                 <input type="checkbox" class="durum" data-id="{{$makale->id}}" data-url="/makale/durum-degis" {{$makale->durum ? "checked" : null}} >
                             </td>
-                            <td>{!!$makale->kucuk_resim  !!}</td>
+                            <td>{!!$makale->kucuk_resim !!}</td>
                             <td>{{$makale->baslik}}</td>
                             <td>{{$makale->slug}}</td>
                             <td>{{$makale->kategori->baslik}}</td>

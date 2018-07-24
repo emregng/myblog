@@ -40,7 +40,7 @@
                             <td>
                                 {{$makale->durum ? "Yayında" : "Yayında Değil"}}
                             </td>
-                            <td>{!!$makale->kucuk_resim  !!}</td>
+                            <td>{!! $makale->kucuk_resim  !!}</td>
                             <td>{{$makale->baslik}}</td>
                             <td>{{$makale->slug}}</td>
                             <td>{{$makale->kategori->baslik}}</td>

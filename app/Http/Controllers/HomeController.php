@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
+use App\Makalem;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -24,6 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('anasayfa');
+        $makaleler = Makalem::where("durum",1)->orderBy("created_at","desc")->paginate(10);
+
+        return view('anasayfa',compact('makaleler'));
     }
 }

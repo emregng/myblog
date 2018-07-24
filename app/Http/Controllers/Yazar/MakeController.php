@@ -23,7 +23,7 @@ class MakeController extends Controller
     public function index()
     {
         //
-        $makaleler = Makalem::where("user_id",Auth::user()->id)->paginate(10);
+        $makaleler = Makalem::where("user_id",Auth::user()->id)->orderBy("created_at","desc")->paginate(10);
         return view("yazar.makale_index",compact('makaleler'));
     }
 
@@ -55,13 +55,15 @@ class MakeController extends Controller
             "kategori_id"=>"required",
         ]);
         $input = $request->all();
+        $input["durum"] = 0;
         $input["user_id"] = Auth::user()->id;
         $input["durum"] = 0;
         $makale =  Makalem::create($input);
         if($resim = $request->file("resim"))
         {
-            $resim_isim = time().".".$resim->getClientOriginalExtension();
-            $thumb = "thumb_".time().".".$resim->getClientOriginalExtension();
+            $time = time();
+            $resim_isim = $time.".".$resim->getClientOriginalExtension();
+            $thumb = "thumb_".$time.".".$resim->getClientOriginalExtension();
 
             Image::make($resim->getRealPath())->fit(1900,872)->fill(array(0,0,0,0.5))->save(public_path("uploads/".$resim_isim));
             Image::make($resim->getRealPath())->fit(600,400)->save(public_path("uploads/".$thumb));
@@ -73,7 +75,7 @@ class MakeController extends Controller
 
             Resim::create($input);
         }
-        Session::flash("durum",1);
+        Session::flash("durum",2);
         return redirect("/makalem");
     }
 
@@ -130,7 +132,7 @@ class MakeController extends Controller
             Image::make($resim->getRealPath())->fit(600,400)->save(public_path("uploads/".$thumb));
 
         }
-        Session::flash("durum",1);
+        Session::flash("durum",2);
         return redirect("/makalem");
     }
 
@@ -144,8 +146,8 @@ class MakeController extends Controller
     {
         //
         $makale_resim = Makalem::find($id)->resim->isim;
-        unlink(public_path("uploads/".$makale_resim));
-        unlink(public_path("uploads/thumb_".$makale_resim));
+       @unlink(public_path("uploads/".$makale_resim));
+       @unlink(public_path("uploads/thumb_".$makale_resim));
 
         Resim::where("imageable_id",$id)->where("imageable_type","App\Makalem")->delete();
         Makalem::destroy($id);

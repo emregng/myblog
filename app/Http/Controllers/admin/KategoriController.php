@@ -52,8 +52,9 @@ class KategoriController extends Controller
         $kategori = Kategori::create($request->all());
         if($resim = $request->file("resim"))
         {
-            $resim_isim = time().".".$resim->getClientOriginalExtension();
-            $thumb = "thumb_".time().".".$resim->getClientOriginalExtension();
+            $time = time();
+            $resim_isim = $time.".".$resim->getClientOriginalExtension();
+            $thumb = "thumb_".$time.".".$resim->getClientOriginalExtension();
 
             Image::make($resim->getRealPath())->fit(1900,872)->fill(array(0,0,0,0.5))->save(public_path("uploads/".$resim_isim));
             Image::make($resim->getRealPath())->fit(600,400)->save(public_path("uploads/".$thumb));
@@ -130,8 +131,8 @@ class KategoriController extends Controller
     {
         //
         $kategori_resim = Kategori::find($id)->resim->isim;
-        unlink(public_path("uploads/".$kategori_resim));
-        unlink(public_path("uploads/thumb_".$kategori_resim));
+        @unlink(public_path("uploads/".$kategori_resim));
+        @unlink(public_path("uploads/thumb_".$kategori_resim));
 
         Resim::where("imageable_id",$id)->where("imageable_type","App\Kategori")->delete();
         Kategori::destroy($id);
