@@ -1,0 +1,39 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Talep;
+use Illuminate\Http\Request;
+
+use App\Http\Requests;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
+
+class YazarlikTalepController extends Controller
+{
+    //
+    public function _construct()
+    {
+        $this->middleware("auth");
+    }
+    public function index()
+    {
+        if(Talep::where("user_id",Auth::user()->id)->count())
+        {
+            Session::flash("durum",3);
+            return redirect("/");
+        }
+        return view("yazarlik_talebi");
+    }
+    public function gonder(Request $request)
+    {
+        $this->validate($request,[
+            "aciklama" => "required"
+        ]);
+        $imput = $request->all();
+        $imput["user_id"] = Auth::user()->id;
+        Talep::create($imput);
+        Session::flash("durum",2);
+        return redirect("/anasayfa");
+    }
+}
