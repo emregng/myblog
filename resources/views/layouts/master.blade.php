@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{!! config("ayarlar.aciklama") !!}">
-    <meta name="author" content=""{!! config("ayarlar.author") !!}>
+    <meta name="description" content="{!! config('ayarlar.aciklama') !!}">
+    <meta name="author" content="{!! config("ayarlar.author") !!}">
      <meta name="keywords" content="{!! config("ayarlar.keywords") !!}">
-    <title>{!! config("ayarlar.baslik") !!}</title>
+    <title> {!! config("ayarlar.baslik") !!}</title>
     <!-- Bootstrap core CSS -->
     <link href="{{asset("vendor/bootstrap/css/bootstrap.min.css")}}" rel="stylesheet">
     <!-- Custom fonts for this template -->
@@ -25,7 +25,6 @@
     </script>
 </head>
 <body data-status="{{Session::get("durum")}}">
-
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container-fluid" id="topbar">

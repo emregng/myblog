@@ -19,7 +19,7 @@ class CreateTalepsTable extends Migration
             $table->timestamps();
         });
         Schema::table("talepler",function ($table){
-            $table->foreign("user_id","talep_user_fk")->references("id")->on("kategoriler")->onDelete('cascade');
+            $table->foreign("user_id","talep_user_fk")->references("id")->on("users")->onDelete('cascade');
         });
     }
 
